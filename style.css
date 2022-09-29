@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+h1{ 
+    font-family: 'Aref Ruqaa Ink', serif;
+background-color: darkgray;
+color: white;
+}
+#show_sketch{
+float: right;
+margin-right: 50px;
+color: white;
+}
+#score{
+    font-size: 25px ;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    float: left;
+    color: white;
+}
+#timer{
+    font-size: 25px ;
+    font-weight: bolder;
+    float: right;
+    margin-right: 50px;
+    color: white;
+}
+#update_the_name{
+    color: rgb(255, 0, 0);
+    font-weight: 1000;
+    font-size: 20px;
+}
+#sketch{
+ color: white;
+ font-size: medium;
+}
+#confidence{
+    color: white;
+    font-size: medium;
+}
+#update_the_name:hover{
+    background-color: red;
+    color: white;
+}
+canvas{
+    
+    border:5px solid skyblue;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+canvas:hover{
+    border: 3px solid red;
+}
